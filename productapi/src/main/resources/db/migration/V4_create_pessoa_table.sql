@@ -1,0 +1,5 @@
+
+CREATE TABLE products.pessoa(
+    id BIGSERIAL PRIMARY KEY UNIQUE NOT NULL, 
+    pessoa VARCHAR(150) NOT NULL
+);

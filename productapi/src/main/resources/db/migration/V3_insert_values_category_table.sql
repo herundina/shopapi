@@ -1,0 +1,1 @@
+INSERT INTO(id, nome) products.category VALUES(1, 'MOVEIS');

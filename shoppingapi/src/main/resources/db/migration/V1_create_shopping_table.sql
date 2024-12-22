@@ -1,0 +1,8 @@
+CREATE SCHEMA IF NOT EXISTS shoppings;
+
+CREATE TABLE shoppings.shop(
+    id SERIAL PRIMARY KEY UNIQUE NOT NULL,
+    userIdentifier VARCHAR(100) NOT NULL,
+    totalCompra FLOAT NOT NULL,
+    dtCompra TIMESTAMP NOT NULL
+);
